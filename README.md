@@ -5,7 +5,7 @@ CLI Calculator App written in Scala
 
 Java needs to be installed in your system or else Scalculator cannot work! You need to manually install Java first.
 
-**Unix-like Installer:**
+**Unix-like Installer (MacOS, Linux, etc):**
 
 Run this in terminal for installation:
 ```bash
