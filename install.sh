@@ -18,7 +18,7 @@ then
 fi
 
 # Download
-rm /usr/local/bin/scalculator /usr/local/bin/scalculator.jar # Make sure scalculator is removed before installing it with curl
+rm -rf /usr/local/bin/scalculator /usr/local/bin/scalculator.jar # Make sure scalculator is removed before installing it with curl
 curl -f https://raw.githubusercontent.com/scalculator/scalculator/main/scalculator.jar -o /usr/local/bin/scalculator.jar && echo "Successfully installed the Scalculator JAR file." || echo "Failed to install the Scalculator JAR file with curl."
 printf '#!/bin/sh\njava -jar /usr/local/bin/scalculator.jar' > /usr/local/bin/scalculator
 chmod +x /usr/local/bin/scalculator # make script be able to execute
